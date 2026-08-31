@@ -3,7 +3,6 @@
   become: true
   hosts: VPS
   roles:
-    - os_update
-    - ssh_hardening
-    - os_hardening
+    - devsec.hardening.ssh_hardening
+    - devsec.hardening.os_hardening
 ...

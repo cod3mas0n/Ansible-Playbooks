@@ -1,7 +1,14 @@
 [submodule "roles/geerlingguy.docker"]
 	path = roles/geerlingguy.docker
 	url = https://github.com/geerlingguy/ansible-role-docker.git
+	branch = master
 
-[submodule "roles/AliMehraji.users"]
-	path = roles/cod3mas0n.users
+[submodule "roles/geerlingguy.node_exporter"]
+	path = roles/geerlingguy.node_exporter
+	url = https://github.com/geerlingguy/ansible-role-node_exporter.git
+	branch = master
+
+[submodule "roles/cod3mas0n.users"]
+	path = roles/cod3mas0n.users_management
 	url = https://github.com/cod3mas0n/ansible-role-users.git
+	branch = main

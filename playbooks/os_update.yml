@@ -1,7 +1,0 @@
----
-- name: OS Update
-  become: true
-  hosts: VPS
-  roles:
-    - os_update
-...

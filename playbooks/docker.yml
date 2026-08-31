@@ -3,6 +3,5 @@
   become: true
   hosts: Terraform_Kvm_vms
   roles:
-    - os_update
     - geerlingguy.docker
 ...
