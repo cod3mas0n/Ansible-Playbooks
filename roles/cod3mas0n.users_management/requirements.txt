@@ -1,8 +1,0 @@
-ansible==12.1.0
-ansible-core==2.19.3
-ansible-lint
-jmespath==1.0.1
-jsonschema==4.23.0
-aar-doc==2.0.0
-ssh-keygen==1.0.4
-passlib==1.7.4

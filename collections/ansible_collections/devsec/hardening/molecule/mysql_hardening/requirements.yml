@@ -1,4 +1,0 @@
----
-roles:
-  - name: dev-sec.mysql
-    version: master
